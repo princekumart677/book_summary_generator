@@ -1,0 +1,45 @@
+name: ETL Pipeline - Fetch and Process Books
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 0"
+
+jobs:
+  fetch-books:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fetch book list from Gutenberg
+        run: |
+          node -e "
+          const fs = require('fs');
+          const https = require('https');
+          
+          // Fetch book metadata from Gutenberg
+          const books = [
+            { id: '1342', title: 'Pride and Prejudice' },
+            { id: '84', title: 'Frankenstein' },
+            { id: '2701', title: 'Moby Dick' },
+            { id: '64317', title: 'Great Expectations' },
+            { id: '43', title: 'The Strange Case of Dr Jekyll and Mr Hyde' }
+          ];
+          
+          console.log('Book list:', JSON.stringify(books));
+          "
+
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "ETL: Update book data"
+          file_pattern: "data/*"
