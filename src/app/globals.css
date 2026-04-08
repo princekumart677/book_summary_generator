@@ -106,3 +106,58 @@ body {
   font-size: 0.875rem;
   color: #4b5563;
 }
+
+.back-link {
+  display: inline-block;
+  margin: 1rem 0;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.book-detail {
+  padding: 1rem 0;
+}
+
+.book-detail h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.book-detail .author {
+  font-size: 1.25rem;
+  color: #6b7280;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.book-detail .description {
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+}
+
+.chapters {
+  margin-top: 2rem;
+}
+
+.chapters h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.chapter {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.chapter h3 {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
