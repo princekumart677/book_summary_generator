@@ -67,3 +67,42 @@ body {
   font-size: 1.25rem;
   color: #6b7280;
 }
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.book-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.book-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.book-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
+.book-card .author {
+  color: #6b7280;
+  font-style: italic;
+  margin-bottom: 0.75rem;
+}
+
+.book-card .description {
+  font-size: 0.875rem;
+  color: #4b5563;
+}
