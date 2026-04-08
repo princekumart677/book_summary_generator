@@ -2,6 +2,7 @@ import Link from "next/link";
 import booksData from "@/data/books.json";
 import { Book } from "@/components/BookList";
 import { notFound } from "next/navigation";
+import QA from "@/components/QA";
 
 interface PageProps {
   params: Promise<{ id: string }>;
@@ -30,7 +31,7 @@ export default async function BookPage({ params }: PageProps) {
         <h1>{book.title}</h1>
         <p className="author">by {book.author}</p>
         <p className="description">{book.description}</p>
-        
+
         <div className="chapters">
           <h2>Chapter Summaries</h2>
           {book.chapters.map((chapter) => (
@@ -40,6 +41,12 @@ export default async function BookPage({ params }: PageProps) {
             </div>
           ))}
         </div>
+
+        <QA
+          bookTitle={book.title}
+          bookAuthor={book.author}
+          chapters={book.chapters}
+        />
       </div>
     </div>
   );

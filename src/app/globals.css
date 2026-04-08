@@ -161,3 +161,92 @@ body {
   margin-bottom: 0.5rem;
   color: var(--primary);
 }
+
+.qa-section {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.qa-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.chat-container {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  min-height: 200px;
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+
+.chat-placeholder {
+  color: #6b7280;
+  text-align: center;
+  padding: 2rem;
+}
+
+.message {
+  margin-bottom: 1rem;
+}
+
+.message-content {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  white-space: pre-wrap;
+}
+
+.message.user .message-content {
+  background: var(--primary);
+  color: white;
+  margin-left: 2rem;
+}
+
+.message.assistant .message-content {
+  background: var(--border);
+  margin-right: 2rem;
+}
+
+.question-form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.question-form input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 1rem;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.question-form input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.question-form button {
+  padding: 0.75rem 1.5rem;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.question-form button:hover:not(:disabled) {
+  background: var(--primary-hover);
+}
+
+.question-form button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
