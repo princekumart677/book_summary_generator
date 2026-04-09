@@ -3,6 +3,7 @@
 import { useState } from "react";
 
 interface Chapter {
+  number: number;
   title: string;
   summary: string;
 }
@@ -47,10 +48,18 @@ export default function QA({ bookTitle, bookAuthor, chapters }: QAProps) {
 
       const data = await response.json();
 
+      console.log("API Response:", data);
+      console.log("Response status:", response.status);
+
       if (data.answer) {
         setMessages((prev) => [
           ...prev,
           { role: "assistant", content: data.answer },
+        ]);
+      } else if (data.error) {
+        setMessages((prev) => [
+          ...prev,
+          { role: "assistant", content: `Error: ${data.error}` },
         ]);
       } else {
         setMessages((prev) => [

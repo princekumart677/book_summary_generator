@@ -5,7 +5,7 @@ module.exports = {
     "^@/(.*)$": "<rootDir>/src/$1",
     "^@/data/(.*)$": "<rootDir>/data/$1",
   },
-  testPathIgnorePatterns: ["<rootDir>/node_modules/", "<rootDir>/.next/"],
+  testPathIgnorePatterns: ["<rootDir>/node_modules/", "<rootDir>/.next/", "<rootDir>/src/__tests__/e2e/"],
   transform: {
     "^.+\\.(ts|tsx)$": ["@swc/jest", {
       "jsc": {
