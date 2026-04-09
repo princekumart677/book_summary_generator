@@ -1,0 +1,252 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary: #2563eb;
+  --primary-hover: #1d4ed8;
+  --card-bg: #f9fafb;
+  --border: #e5e7eb;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --card-bg: #1f2937;
+    --border: #374151;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.header {
+  background: var(--background);
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.main {
+  min-height: calc(100vh - 80px);
+  padding: 2rem 0;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: #6b7280;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.book-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.book-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.book-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
+.book-card .author {
+  color: #6b7280;
+  font-style: italic;
+  margin-bottom: 0.75rem;
+}
+
+.book-card .description {
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+.back-link {
+  display: inline-block;
+  margin: 1rem 0;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.book-detail {
+  padding: 1rem 0;
+}
+
+.book-detail h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.book-detail .author {
+  font-size: 1.25rem;
+  color: #6b7280;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.book-detail .description {
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+}
+
+.chapters {
+  margin-top: 2rem;
+}
+
+.chapters h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.chapter {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.chapter h3 {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
+.qa-section {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.qa-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.chat-container {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  min-height: 200px;
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+
+.chat-placeholder {
+  color: #6b7280;
+  text-align: center;
+  padding: 2rem;
+}
+
+.message {
+  margin-bottom: 1rem;
+}
+
+.message-content {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  white-space: pre-wrap;
+}
+
+.message.user .message-content {
+  background: var(--primary);
+  color: white;
+  margin-left: 2rem;
+}
+
+.message.assistant .message-content {
+  background: var(--border);
+  margin-right: 2rem;
+}
+
+.question-form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.question-form input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 1rem;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.question-form input:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.question-form button {
+  padding: 0.75rem 1.5rem;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.question-form button:hover:not(:disabled) {
+  background: var(--primary-hover);
+}
+
+.question-form button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
