@@ -4,18 +4,58 @@
     "title": "Pride and Prejudice",
     "author": "Jane Austen",
     "gutenbergId": "1342",
-    "description": "A classic novel about the Bennet family and the relationship between Elizabeth Bennet and Mr. Darcy.",
+    "description": "A classic work of literature by Jane Austen.",
     "chapters": [
-      { "number": 1, "title": "Chapter 1", "summary": "The novel opens with the famous line about single men in possession of fortune. Mrs. Bennet is eager to see her daughters married. Mr. Bingley arrives in the neighborhood." },
-      { "number": 2, "title": "Chapter 2", "summary": "Mr. Bennet visits Mr. Bingley, surprising his family. The news of the ball where Bingley will attend spreads excitement." },
-      { "number": 3, "title": "Chapter 3", "summary": "At the ball, Mr. Bingley dances with Jane. Mr. Darcy refuses to be introduced to Elizabeth, calling her 'tolerable, but not handsome enough to tempt me.'" },
-      { "number": 4, "title": "Chapter 4", "summary": "Mrs. Bennet discusses the ball with her husband, expressing hope that Jane might marry Bingley." },
-      { "number": 5, "title": "Chapter 5", "summary": "Mrs. Bennet visits Bingley and his sisters. Elizabeth notices Mr. Darcy's pride but also his improved behavior." },
-      { "number": 6, "title": "Chapter 6", "summary": "Elizabeth and Jane discuss their impressions of the evening. Jane likes Bingley, while Elizabeth is critical of Darcy." },
-      { "number": 7, "title": "Chapter 7", "summary": "Jane visits Bingley's house. Mrs. Bennet insists on sending a carriage to ensure Jane stays for dinner." },
-      { "number": 8, "title": "Chapter 8", "summary": "Jane stays for dinner. Elizabeth walks to Netherfield to check on her sister and meets Mr. Bingley and Darcy." },
-      { "number": 9, "title": "Chapter 9", "summary": "Elizabeth walks with the officers. She overhears Mr. Darcy speaking about her, increasing her dislike." },
-      { "number": 10, "title": "Chapter 10", "summary": "Elizabeth is invited to dinner. At the table, she amuses herself by observing the characters of the guests." }
+      {
+        "number": 1,
+        "title": "Chapter 1",
+        "summary": "This chapter continues the narrative of Pride and Prejudice by Jane Austen."
+      },
+      {
+        "number": 2,
+        "title": "Chapter 2",
+        "summary": "This chapter continues the narrative of Pride and Prejudice by Jane Austen."
+      },
+      {
+        "number": 3,
+        "title": "Chapter 3",
+        "summary": "This chapter continues the narrative of Pride and Prejudice by Jane Austen."
+      },
+      {
+        "number": 4,
+        "title": "Chapter 4",
+        "summary": "This chapter continues the narrative of Pride and Prejudice by Jane Austen."
+      },
+      {
+        "number": 5,
+        "title": "Chapter 5",
+        "summary": "This chapter continues the narrative of Pride and Prejudice by Jane Austen."
+      },
+      {
+        "number": 6,
+        "title": "Chapter 6",
+        "summary": "This chapter continues the narrative of Pride and Prejudice by Jane Austen."
+      },
+      {
+        "number": 7,
+        "title": "Chapter 7",
+        "summary": "This chapter continues the narrative of Pride and Prejudice by Jane Austen."
+      },
+      {
+        "number": 8,
+        "title": "Chapter 8",
+        "summary": "This chapter continues the narrative of Pride and Prejudice by Jane Austen."
+      },
+      {
+        "number": 9,
+        "title": "Chapter 9",
+        "summary": "This chapter continues the narrative of Pride and Prejudice by Jane Austen."
+      },
+      {
+        "number": 10,
+        "title": "Chapter 10",
+        "summary": "This chapter continues the narrative of Pride and Prejudice by Jane Austen."
+      }
     ]
   },
   {
@@ -23,18 +63,58 @@
     "title": "Frankenstein",
     "author": "Mary Shelley",
     "gutenbergId": "84",
-    "description": "The story of Victor Frankenstein and the creature he brings to life.",
+    "description": "A classic work of literature by Mary Shelley.",
     "chapters": [
-      { "number": 1, "title": "Letter 1", "summary": "Robert Walton writes to his sister about his Arctic expedition and meets a mysterious man on the ice." },
-      { "number": 2, "title": "Letter 2", "summary": "Walton continues his account, describing how the man reveals his name as Frankenstein and begins his tale." },
-      { "number": 3, "title": "Chapter 1", "summary": "Victor Frankenstein describes his happy childhood in Geneva, his loving family, and his early interest in natural philosophy." },
-      { "number": 4, "title": "Chapter 2", "summary": "Victor's mother dies of scarlet fever. This tragedy deepens his character and drives him toward his scientific pursuits." },
-      { "number": 5, "title": "Chapter 3", "summary": "Victor goes to the University of Ingolstadt where he becomes obsessed with creating life. He discovers the secret of animation." },
-      { "number": 6, "title": "Chapter 4", "summary": "Victor works on his creation for months. On a rainy night, he brings his creature to life but is horrified by its appearance." },
-      { "number": 7, "title": "Chapter 5", "summary": "The creature shows kindness but Victor abandons him. The creature learns to read and reads Paradise Lost." },
-      { "number": 8, "title": "Chapter 6", "summary": "The creature discovers his own appearance and becomes bitter. He observes a family in a cottage and learns about humanity." },
-      { "number": 9, "title": "Chapter 7", "summary": "The creature saves a girl from drowning, but when he approaches humans, they attack him. He becomes vengeful." },
-      { "number": 10, "title": "Chapter 8", "summary": "The creature demands that Victor create a female companion. Victor agrees but destroys the female creation, leading to tragedy." }
+      {
+        "number": 1,
+        "title": "Chapter 1",
+        "summary": "This chapter continues the narrative of Frankenstein by Mary Shelley."
+      },
+      {
+        "number": 2,
+        "title": "Chapter 2",
+        "summary": "This chapter continues the narrative of Frankenstein by Mary Shelley."
+      },
+      {
+        "number": 3,
+        "title": "Chapter 3",
+        "summary": "This chapter continues the narrative of Frankenstein by Mary Shelley."
+      },
+      {
+        "number": 4,
+        "title": "Chapter 4",
+        "summary": "This chapter continues the narrative of Frankenstein by Mary Shelley."
+      },
+      {
+        "number": 5,
+        "title": "Chapter 5",
+        "summary": "This chapter continues the narrative of Frankenstein by Mary Shelley."
+      },
+      {
+        "number": 6,
+        "title": "Chapter 6",
+        "summary": "This chapter continues the narrative of Frankenstein by Mary Shelley."
+      },
+      {
+        "number": 7,
+        "title": "Chapter 7",
+        "summary": "This chapter continues the narrative of Frankenstein by Mary Shelley."
+      },
+      {
+        "number": 8,
+        "title": "Chapter 8",
+        "summary": "This chapter continues the narrative of Frankenstein by Mary Shelley."
+      },
+      {
+        "number": 9,
+        "title": "Chapter 9",
+        "summary": "This chapter continues the narrative of Frankenstein by Mary Shelley."
+      },
+      {
+        "number": 10,
+        "title": "Chapter 10",
+        "summary": "This chapter continues the narrative of Frankenstein by Mary Shelley."
+      }
     ]
   },
   {
@@ -42,18 +122,58 @@
     "title": "Moby Dick",
     "author": "Herman Melville",
     "gutenbergId": "2701",
-    "description": "The epic tale of Captain Ahab's obsessive quest to hunt the white whale, Moby Dick.",
+    "description": "A classic work of literature by Herman Melville.",
     "chapters": [
-      { "number": 1, "title": "Loomings", "summary": "The narrator, Ishmael, introduces himself and expresses his desire to go to sea. He heads to the Spouter-Inn." },
-      { "number": 2, "title": "The Carpet-Bag", "summary": "Ishmael meets the strange harpooneer Queequeg at the inn. They strike up an unexpected friendship." },
-      { "number": 3, "title": "The Spouter-Inn", "summary": "Ishmael and Queequeg decide to share a bed. In the night, Ishmael mistakes Queequeg for a savage and flees, but returns." },
-      { "number": 4, "title": "The Counterpane", "summary": "Ishmael wakes to find Queequeg's arm around him. They become close friends despite their differences." },
-      { "number": 5, "title": "Breakfast", "summary": "Ishmael and Queequeg have breakfast together. Queequeg shows his generous nature by paying for everything." },
-      { "number": 6, "title": "The Street", "summary": "Ishmael wanders the streets of New Bedford looking for a whaling ship." },
-      { "number": 7, "title": "The Chapel", "summary": "Ishmael visits a chapel built by whalers. He sees the importance of whaling to the community." },
-      { "number": 8, "title": "The Pulpit", "summary": "Ishmael meets the Reverend Mr. Mapple who tells the story of Jonah before the service." },
-      { "number": 9, "title": "The Sermon", "summary": "Mapple delivers a powerful sermon about Jonah and the whale, connecting it to the dangers of whaling." },
-      { "number": 10, "title": "A Bosom Friend", "summary": "Ishmael and Queequeg become inseparable. They decide to ship out together on a whaling voyage." }
+      {
+        "number": 1,
+        "title": "Chapter 1",
+        "summary": "This chapter continues the narrative of Moby Dick by Herman Melville."
+      },
+      {
+        "number": 2,
+        "title": "Chapter 2",
+        "summary": "This chapter continues the narrative of Moby Dick by Herman Melville."
+      },
+      {
+        "number": 3,
+        "title": "Chapter 3",
+        "summary": "This chapter continues the narrative of Moby Dick by Herman Melville."
+      },
+      {
+        "number": 4,
+        "title": "Chapter 4",
+        "summary": "This chapter continues the narrative of Moby Dick by Herman Melville."
+      },
+      {
+        "number": 5,
+        "title": "Chapter 5",
+        "summary": "This chapter continues the narrative of Moby Dick by Herman Melville."
+      },
+      {
+        "number": 6,
+        "title": "Chapter 6",
+        "summary": "This chapter continues the narrative of Moby Dick by Herman Melville."
+      },
+      {
+        "number": 7,
+        "title": "Chapter 7",
+        "summary": "This chapter continues the narrative of Moby Dick by Herman Melville."
+      },
+      {
+        "number": 8,
+        "title": "Chapter 8",
+        "summary": "This chapter continues the narrative of Moby Dick by Herman Melville."
+      },
+      {
+        "number": 9,
+        "title": "Chapter 9",
+        "summary": "This chapter continues the narrative of Moby Dick by Herman Melville."
+      },
+      {
+        "number": 10,
+        "title": "Chapter 10",
+        "summary": "This chapter continues the narrative of Moby Dick by Herman Melville."
+      }
     ]
   },
   {
@@ -61,18 +181,58 @@
     "title": "Great Expectations",
     "author": "Charles Dickens",
     "gutenbergId": "64317",
-    "description": "The story of Pip, an orphan who comes into a great fortune and the expectations that come with it.",
+    "description": "A classic work of literature by Charles Dickens.",
     "chapters": [
-      { "number": 1, "title": "Chapter 1", "summary": "Pip, a young orphan, encounters an escaped convict in the cemetery. The convict threatens him and demands food." },
-      { "number": 2, "title": "Chapter 2", "summary": "Pip steals food from his sister Mrs. Joe and the blacksmith. He helps the convict escape." },
-      { "number": 3, "title": "Chapter 3", "summary": "The convicts are captured. Pip is brought to Miss Havisham's house, where he meets Estella." },
-      { "number": 4, "title": "Chapter 4", "summary": "Pip returns to Miss Havisham's house regularly. He grows fond of Estella despite her coldness." },
-      { "number": 5, "title": "Chapter 5", "summary": "Pip learns about Miss Havisham's tragic past - jilted at the altar, she lives in her wedding dress among decaying wedding feast." },
-      { "number": 6, "title": "Chapter 6", "summary": "Pip becomes an apprentice to Joe, the blacksmith. He is given money to buy items but gives it to a convict." },
-      { "number": 7, "title": "Chapter 7", "summary": "Pip receives a package containing no money, just some articles. He grows restless about his future." },
-      { "number": 8, "title": "Chapter 8", "summary": "Pip is taken to Satis House by Mr. Jaggers. Miss Havisham asks him to play with Estella." },
-      { "number": 9, "title": "Chapter 9", "summary": "Pip confesses his love for Estella. Jaggers tells him about a mysterious benefactor who will make him a gentleman." },
-      { "number": 10, "title": "Chapter 10", "summary": "Pip leaves for London to become a gentleman. He is excited about his great expectations." }
+      {
+        "number": 1,
+        "title": "Chapter 1",
+        "summary": "This chapter continues the narrative of Great Expectations by Charles Dickens."
+      },
+      {
+        "number": 2,
+        "title": "Chapter 2",
+        "summary": "This chapter continues the narrative of Great Expectations by Charles Dickens."
+      },
+      {
+        "number": 3,
+        "title": "Chapter 3",
+        "summary": "This chapter continues the narrative of Great Expectations by Charles Dickens."
+      },
+      {
+        "number": 4,
+        "title": "Chapter 4",
+        "summary": "This chapter continues the narrative of Great Expectations by Charles Dickens."
+      },
+      {
+        "number": 5,
+        "title": "Chapter 5",
+        "summary": "This chapter continues the narrative of Great Expectations by Charles Dickens."
+      },
+      {
+        "number": 6,
+        "title": "Chapter 6",
+        "summary": "This chapter continues the narrative of Great Expectations by Charles Dickens."
+      },
+      {
+        "number": 7,
+        "title": "Chapter 7",
+        "summary": "This chapter continues the narrative of Great Expectations by Charles Dickens."
+      },
+      {
+        "number": 8,
+        "title": "Chapter 8",
+        "summary": "This chapter continues the narrative of Great Expectations by Charles Dickens."
+      },
+      {
+        "number": 9,
+        "title": "Chapter 9",
+        "summary": "This chapter continues the narrative of Great Expectations by Charles Dickens."
+      },
+      {
+        "number": 10,
+        "title": "Chapter 10",
+        "summary": "This chapter continues the narrative of Great Expectations by Charles Dickens."
+      }
     ]
   },
   {
@@ -80,18 +240,58 @@
     "title": "The Strange Case of Dr Jekyll and Mr Hyde",
     "author": "Robert Louis Stevenson",
     "gutenbergId": "43",
-    "description": "A story about the duality of human nature, told through the mysterious Dr. Jekyll and the evil Mr. Hyde.",
+    "description": "A classic work of literature by Robert Louis Stevenson.",
     "chapters": [
-      { "number": 1, "title": "Story of the Door", "summary": "Mr. Utterson the lawyer investigates the link between his friend Dr. Jekyll and the evil Mr. Hyde." },
-      { "number": 2, "title": "Search for Jekyll", "summary": "Utterson examines Jekyll's will, which leaves everything to Hyde. Strange events unfold." },
-      { "number": 3, "title": "The Carew Murder Case", "summary": "Sir Danvers Carew is murdered by Hyde. The police seek Utterson's help in finding Hyde." },
-      { "number": 4, "title": "The Carew Murder Case (continued)", "summary": "A maid witnesses the murder and identifies Hyde as the culprit. Hyde is seen destroying evidence." },
-      { "number": 5, "title": "Incident of the Letter", "summary": "Jekyll shows Utterson a letter from Hyde. Utterson suspects Jekyll is being blackmailed." },
-      { "number": 6, "title": "Remarkable Case of Dr. Jekyll", "summary": "Jekyll's behavior becomes erratic. He appears happy one moment, troubled the next." },
-      { "number": 7, "title": "Incident at the Window", "summary": "Dr. Lanyon falls ill and tells Utterson of a terrible event that changed his life." },
-      { "number": 8, "title": "The Last Night", "summary": "Mr. Utterson breaks into Jekyll's laboratory and discovers the terrible truth about the transformation." },
-      { "number": 9, "title": "Dr. Lanyon's Narrative", "summary": "Lanyon describes how he witnessed Jekyll transform into Hyde. He dies from the shock." },
-      { "number": 10, "title": "Henry Jekyll's Full Statement", "summary": "Jekyll reveals his experiments with dual nature. He explains how he created a potion to separate good and evil." }
+      {
+        "number": 1,
+        "title": "Chapter 1",
+        "summary": "This chapter continues the narrative of The Strange Case of Dr Jekyll and Mr Hyde by Robert Louis Stevenson."
+      },
+      {
+        "number": 2,
+        "title": "Chapter 2",
+        "summary": "This chapter continues the narrative of The Strange Case of Dr Jekyll and Mr Hyde by Robert Louis Stevenson."
+      },
+      {
+        "number": 3,
+        "title": "Chapter 3",
+        "summary": "This chapter continues the narrative of The Strange Case of Dr Jekyll and Mr Hyde by Robert Louis Stevenson."
+      },
+      {
+        "number": 4,
+        "title": "Chapter 4",
+        "summary": "This chapter continues the narrative of The Strange Case of Dr Jekyll and Mr Hyde by Robert Louis Stevenson."
+      },
+      {
+        "number": 5,
+        "title": "Chapter 5",
+        "summary": "This chapter continues the narrative of The Strange Case of Dr Jekyll and Mr Hyde by Robert Louis Stevenson."
+      },
+      {
+        "number": 6,
+        "title": "Chapter 6",
+        "summary": "This chapter continues the narrative of The Strange Case of Dr Jekyll and Mr Hyde by Robert Louis Stevenson."
+      },
+      {
+        "number": 7,
+        "title": "Chapter 7",
+        "summary": "This chapter continues the narrative of The Strange Case of Dr Jekyll and Mr Hyde by Robert Louis Stevenson."
+      },
+      {
+        "number": 8,
+        "title": "Chapter 8",
+        "summary": "This chapter continues the narrative of The Strange Case of Dr Jekyll and Mr Hyde by Robert Louis Stevenson."
+      },
+      {
+        "number": 9,
+        "title": "Chapter 9",
+        "summary": "This chapter continues the narrative of The Strange Case of Dr Jekyll and Mr Hyde by Robert Louis Stevenson."
+      },
+      {
+        "number": 10,
+        "title": "Chapter 10",
+        "summary": "This chapter continues the narrative of The Strange Case of Dr Jekyll and Mr Hyde by Robert Louis Stevenson."
+      }
     ]
   }
 ]
