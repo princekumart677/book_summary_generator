@@ -23,7 +23,7 @@ test.describe("Book Summary Generator E2E", () => {
   test("book detail shows chapter summaries", async ({ page }) => {
     await page.goto("/book/1342");
     await expect(page.locator(".chapters h2")).toContainText("Chapter Summaries");
-    await expect(page.locator(".chapter")).toHaveCount(3);
+    await expect(page.locator(".chapter")).toHaveCount(10);
   });
 
   test("QA section is present on book page", async ({ page }) => {
