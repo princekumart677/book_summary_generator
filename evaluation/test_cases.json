@@ -1,0 +1,47 @@
+[
+  {
+    "id": "case_1",
+    "bookTitle": "Pride and Prejudice",
+    "question": "Who is the main character?",
+    "answer": "The main character in 'Pride and Prejudice' is Elizabeth Bennet. The summaries emphasize her thoughts, feelings, and confrontations with other characters, particularly Mr. Darcy and Mr. Wickham, showcasing her strong personality and independence.",
+    "expectedQuality": "good",
+    "actualQuality": "good",
+    "notes": "Correctly identified Elizabeth Bennet"
+  },
+  {
+    "id": "case_2",
+    "bookTitle": "Frankenstein",
+    "question": "What is this book about?",
+    "answer": "'Frankenstein' by Mary Shelley explores the themes of ambition, creation, and responsibility through the story of Victor Frankenstein, a young scientist who becomes obsessed with the idea of creating life. The narrative begins with Robert Walton's letters...",
+    "expectedQuality": "good",
+    "actualQuality": "good",
+    "notes": "Good plot summary"
+  },
+  {
+    "id": "case_3",
+    "bookTitle": "Moby Dick",
+    "question": "Who is Captain Ahab?",
+    "answer": "The provided summaries do not specifically mention Captain Ahab. However, in 'Moby Dick,' Captain Ahab is a central character known for his obsession with hunting the white whale, Moby Dick.",
+    "expectedQuality": "good",
+    "actualQuality": "okay",
+    "notes": "Model admitted summaries don't mention Ahab - this is a failure in ETL data"
+  },
+  {
+    "id": "case_4",
+    "bookTitle": "Great Expectations",
+    "question": "What genre is this book?",
+    "answer": "'Great Expectations' is a work of fiction, specifically falling under the genre of literary fiction and coming-of-age (bildungsroman).",
+    "expectedQuality": "good",
+    "actualQuality": "good",
+    "notes": "Correctly identified genre"
+  },
+  {
+    "id": "case_5",
+    "bookTitle": "The Strange Case of Dr Jekyll and Mr Hyde",
+    "question": "What is the theme of the book?",
+    "answer": "The summaries provided do not explicitly state the themes... However, based on the context... the overarching themes likely include the duality of human nature, the conflict between good and evil.",
+    "expectedQuality": "good",
+    "actualQuality": "okay",
+    "notes": "Inferred theme from context rather than explicit summary"
+  }
+]

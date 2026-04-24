@@ -1,0 +1,22 @@
+[
+  {
+    "id": "failure_1",
+    "bookTitle": "Moby Dick",
+    "question": "Who is Captain Ahab?",
+    "expectedAnswer": "Captain Ahab is the obsessed captain seeking Moby Dick",
+    "actualAnswer": "The provided summaries do not specifically mention Captain Ahab...",
+    "rootCause": "ETL pipeline only generated first 10 chapters, Ahab appears in later chapters",
+    "severity": "high",
+    "component": "ETL output (chapter summaries)"
+  },
+  {
+    "id": "failure_2",
+    "bookTitle": "Dr Jekyll and Mr Hyde",
+    "question": "Does Jekyll choose to become Hyde?",
+    "expectedAnswer": "Yes, Jekyll created a potion to transform",
+    "actualAnswer": "The summaries do not explicitly state Jekyll's choice to become Hyde",
+    "rootCause": "Chapter summaries are too generic, missing key plot points",
+    "severity": "medium",
+    "component": "ETL output (chapter summaries)"
+  }
+]
